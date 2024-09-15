@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import VirtualTable from "./components/VirtualTable.vue";
+import VirtualTable from "@/components/VirtualTable.vue";
 
 const columns = ref([
   { id: 1, title: "Name", key: "name" },
